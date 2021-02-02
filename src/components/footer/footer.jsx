@@ -1,7 +1,7 @@
 import footerContent from "./footer.json";
 import "./footer.css";
 import footerImg from "../../images/footer-main-img.png";
-const Footer = () => {
+function Footer() {
   return (
     <footer class="pt-5 pb-3 footer-section">
       <div className="container footer-section-container">
@@ -52,5 +52,5 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+}
 export default Footer;

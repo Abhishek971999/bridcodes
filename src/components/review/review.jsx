@@ -1,6 +1,6 @@
 import "./review.css";
 import reviews from "./review.json";
-const Review = () => {
+function Review() {
   return (
     <div className="review-section container">
       {reviews &&
@@ -18,6 +18,6 @@ const Review = () => {
         ))}
     </div>
   );
-};
+}
 
 export default Review;

@@ -1,6 +1,6 @@
 import { ButtonPrimary } from "../../utls/button/button";
 import "./cta.css";
-const Cta = () => {
+function Cta() {
   return (
     <div className="cta-container container">
       <div className="cta-section">
@@ -22,6 +22,6 @@ const Cta = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Cta;

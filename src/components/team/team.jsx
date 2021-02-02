@@ -3,7 +3,7 @@ import team1 from "../../images/team1.png";
 import team2 from "../../images/team2.png";
 import team3 from "../../images/team3.png";
 import team4 from "../../images/team4.png";
-const Team = () => {
+function Team() {
   return (
     <div className="team-section container">
       <h3 className="text-center team-heading-text">Our leadership</h3>
@@ -44,6 +44,6 @@ const Team = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Team;
