@@ -1,0 +1,38 @@
+.team-section {
+  padding: 50px 0;
+}
+.team-heading-text {
+  font-weight: 600;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 24px;
+}
+.team-subheading-text {
+  padding: 0 200px;
+  color: #000;
+  margin-bottom: 24px;
+}
+.team-row {
+  padding: 0 100px;
+}
+.team-member-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.team-member-name {
+  margin-top: 16px;
+  text-align: center;
+}
+.team-member-name p {
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #000;
+}
+@media only screen and (max-width: 600px) {
+  .team-section {
+    padding: 0;
+  }
+  .team-subheading-text {
+    padding: 0 10px;
+  }
+}

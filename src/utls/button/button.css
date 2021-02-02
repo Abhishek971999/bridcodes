@@ -1,0 +1,9 @@
+.button-primary {
+  background: #0e6fff;
+  padding: 8px 24px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+}

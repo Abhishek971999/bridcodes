@@ -1,0 +1,30 @@
+.review-div {
+  padding: 50px 200px;
+}
+.review-main-text {
+  font-weight: 600;
+}
+.review-author {
+  margin-top: 32px;
+}
+.review-author-img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.review-author-name {
+  margin-left: 16px;
+}
+.review-author-name p {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+  .review-div {
+    padding: 30px 10px;
+  }
+  .review-main-text {
+    font-size: 20px;
+  }
+}

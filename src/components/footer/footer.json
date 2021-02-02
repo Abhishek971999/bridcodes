@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Pages",
+    "subSection": [
+      {
+        "name": "Templates",
+        "url": "#"
+      },
+      {
+        "name": "Price",
+        "url": "#"
+      },
+      {
+        "name": "Help",
+        "url": "#"
+      },
+      {
+        "name": "Contact",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "title": "Demos",
+    "subSection": [
+      {
+        "name": "Dark theme",
+        "url": "#"
+      },
+      {
+        "name": "Light theme",
+        "url": "#"
+      },
+      {
+        "name": "Classic theme",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "title": "Resources",
+    "subSection": [
+      {
+        "name": "Documentation",
+        "url": "#"
+      }
+    ]
+  }
+]

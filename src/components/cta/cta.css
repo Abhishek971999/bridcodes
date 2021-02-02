@@ -1,0 +1,17 @@
+.cta-container {
+  padding: 50px 120px;
+}
+.cta-section {
+  background: #ffc5b64a;
+  padding: 50px 60px;
+  border-radius: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .cta-container {
+    padding: 0;
+  }
+  .cta-btn-div {
+    margin-top: 20px;
+  }
+}
