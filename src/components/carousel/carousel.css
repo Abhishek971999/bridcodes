@@ -5,10 +5,56 @@
   font-weight: 600;
   font-size: 32px;
   color: #000;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 .carousel-para {
   font-weight: 600;
   margin-bottom: 20px;
   font-size: 14px;
+}
+.carousel__inner-slide {
+  height: 200px;
+}
+.card {
+  height: 100%;
+  width: 90%;
+}
+.card-title {
+  font-weight: 600;
+}
+.card-text {
+  font-size: 14px;
+}
+.card-desc-footer {
+  font-size: 13px;
+  color: #696969;
+  transition: all 0.3s;
+}
+.card-desc-footer:hover {
+  font-size: 13px;
+  color: #0e6fff;
+  text-decoration: underline;
+}
+
+.carousel__back-button,
+.carousel__next-button {
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #696969 !important;
+  transition: all 0.3s;
+}
+.carousel__back-button:hover,
+.carousel__next-button:hover {
+  color: #0e6fff !important;
+}
+.carousel__back-button:disabled,
+.carousel__next-button:disabled {
+  color: #696969 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 0 !important;
+  }
 }

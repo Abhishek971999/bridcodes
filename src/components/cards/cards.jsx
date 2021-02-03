@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "../../utls/card/card";
 import "./cards.css";
 import cards from "./cards.json";
 
@@ -21,15 +22,12 @@ function Cards() {
         {cards &&
           cards.map((card, key) => (
             <div className="col-sm-12 col-lg-4">
-              <div className="card ">
-                <div className="card-body">
-                  <h5 className="card-title">{card?.title}</h5>
-                  <p className="card-text">{card?.desc}</p>
-                </div>
-                <div className="card-footer-text">
-                  <small>{card?.footer}</small>
-                </div>
-              </div>
+              <Card
+                title={card?.title}
+                desc={card?.desc}
+                footer={card?.footer}
+                key={key}
+              />
             </div>
           ))}
       </div>
