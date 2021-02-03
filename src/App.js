@@ -4,11 +4,15 @@ import Cta from "./components/cta/cta";
 import Footer from "./components/footer/footer";
 import Review from "./components/review/review";
 import Cards from "./components/cards/cards";
+import Info from "./components/info/info";
+import Carousel from "./components/carousel/carousel";
 
 function App() {
   return (
     <div className="App">
-      <Cards />
+      <Carousel />
+      {/* <Info /> */}
+      {/* <Cards /> */}
       <Team />
       {/* <Review /> */}
       <Cta />

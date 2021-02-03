@@ -1,5 +1,7 @@
+import React from "react";
 import "./cards.css";
 import cards from "./cards.json";
+
 function Cards() {
   return (
     <div className="card-section container">

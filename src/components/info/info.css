@@ -1,0 +1,31 @@
+.info-section {
+  padding: 50px 100px 0;
+  background: linear-gradient(to bottom, #ffc5b64a, #fff);
+  border-radius: 10px;
+}
+.info-heading-text {
+  font-weight: 600;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.info-subheading-text {
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 30px;
+}
+.info-div .info-para {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.info-card {
+  display: flex;
+}
+.info-card-img {
+  height: 40px;
+  margin-right: 10px;
+}
+.info-card-title {
+  font-weight: 600;
+}
