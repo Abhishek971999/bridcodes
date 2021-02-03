@@ -6,10 +6,12 @@ import Review from "./components/review/review";
 import Cards from "./components/cards/cards";
 import Info from "./components/info/info";
 import Carousel from "./components/carousel/carousel";
+import About from "./components/about/about";
 
 function App() {
   return (
     <div className="App">
+      <About />
       <Carousel />
       {/* <Info /> */}
       {/* <Cards /> */}
