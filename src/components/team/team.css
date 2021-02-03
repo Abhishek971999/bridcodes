@@ -2,7 +2,7 @@
   padding: 50px 0;
 }
 .team-heading-text {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 32px;
   color: #000;
   margin-bottom: 24px;
@@ -25,7 +25,7 @@
 }
 .team-member-name p {
   margin-bottom: 0;
-  font-weight: 600;
+  font-weight: 700;
   color: #000;
 }
 @media only screen and (max-width: 600px) {

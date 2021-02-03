@@ -7,10 +7,12 @@ import Cards from "./components/cards/cards";
 import Info from "./components/info/info";
 import Carousel from "./components/carousel/carousel";
 import About from "./components/about/about";
+import Hero from "./components/hero/hero";
 
 function App() {
   return (
     <div className="App">
+      <Hero />
       <About />
       {/* <Carousel /> */}
       {/* <Info /> */}

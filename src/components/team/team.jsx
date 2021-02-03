@@ -13,28 +13,28 @@ function Team() {
         similique provident.
       </p>
       <div className="row justify-content-center team-row">
-        <div className="col-sm-12 col-lg-3">
+        <div className="col-sm-12 col-md-3 col-lg-3">
           <img src={team1} alt="Team member 1" className="team-member-img" />
           <div className="team-member-name">
             <p>Andry Ford</p>
             <small>CEO at Whatever</small>
           </div>
         </div>
-        <div className="col-sm-12 col-lg-3">
+        <div className="col-sm-12 col-md-3 col-lg-3">
           <img src={team2} alt="Team member 2" className="team-member-img" />
           <div className="team-member-name">
             <p>Andry Ford</p>
             <small>CEO at Whatever</small>
           </div>
         </div>
-        <div className="col-sm-12 col-lg-3">
+        <div className="col-sm-12 col-md-3 col-lg-3">
           <img src={team3} alt="Team member 3" className="team-member-img" />
           <div className="team-member-name">
             <p>Andry Ford</p>
             <small>CEO at Whatever</small>
           </div>
         </div>
-        <div className="col-sm-12 col-lg-3">
+        <div className="col-sm-12 col-md-3 col-lg-3">
           <img src={team4} alt="Team member 4" className="team-member-img" />
           <div className="team-member-name">
             <p>Andry Ford</p>

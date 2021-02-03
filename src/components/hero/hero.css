@@ -1,0 +1,103 @@
+.hero {
+  background: linear-gradient(to bottom, #ffc5b64a, #fff);
+}
+.hero-section {
+  padding: 50px 0;
+  overflow-x: hidden;
+}
+.hero-text-top-para {
+  font-size: 16px;
+  color: rgb(100, 99, 99);
+}
+.hero-text-box {
+  padding: 0 90px 0 150px;
+}
+.hero-header-text {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.hero-carousel-box {
+  text-align: right;
+}
+.hero-author-review {
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.hero-author {
+  margin-top: 32px;
+}
+.hero-author-img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.hero-author-name {
+  margin-left: 16px;
+}
+.hero-author-name p {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.carousel__back-button {
+  position: absolute;
+  bottom: 12%;
+  border: none;
+  background: #ece8e838;
+  color: #000;
+  left: 35%;
+  transition: all 0.3s;
+}
+
+.carousel__next-button {
+  position: absolute;
+  bottom: 12%;
+  border: none;
+  background: #ece8e838;
+  color: #000;
+  left: 40%;
+  transition: all 0.3s;
+}
+.carousel__back-button:hover,
+.carousel__next-button:hover {
+  background: #0e6fff;
+  color: #fff;
+}
+@media only screen and (min-width: 600px) and (max-width: 1050px) {
+  .hero-text-box {
+    padding: 0 30px 0 30px;
+  }
+  .hero-header-text {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .hero-author-review {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-section {
+    padding: 10px 0;
+    overflow-x: hidden;
+  }
+
+  .hero-text-box {
+    padding: 0;
+  }
+  .hero-author-review {
+    margin-top: 20px;
+  }
+  .hero-carousel-box {
+    margin: 30px 0 0;
+    text-align: center;
+  }
+  .carousel__back-button,
+  .carousel__next-button {
+    position: relative;
+    left: 0;
+  }
+}

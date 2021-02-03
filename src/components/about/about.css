@@ -27,12 +27,12 @@
   max-width: 100%;
 }
 .about-text-header-2 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 34px;
   margin-bottom: 20px;
 }
 .about-text-header {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 30px;
 }
 .about-text-para {
@@ -45,9 +45,18 @@
   color: #0e6fff;
   text-decoration: underline;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
 }
-
+@media only screen and (min-width: 600px) and (max-width: 1050px) {
+  .about-text-header-2 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .about-top {
+    padding: 50px 100px 0;
+  }
+}
 @media only screen and (max-width: 600px) {
   .about-row {
     padding: 0;
@@ -60,7 +69,7 @@
     padding-left: 0px;
   }
   .about-text-header-2 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 24px;
     margin: 20px 0;
   }
