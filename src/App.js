@@ -1,26 +1,26 @@
 import "./App.css";
-import Team from "./components/team/team";
-import Cta from "./components/cta/cta";
-import Footer from "./components/footer/footer";
-import Review from "./components/review/review";
-import Cards from "./components/cards/cards";
-import Info from "./components/info/info";
-import Carousel from "./components/carousel/carousel";
-import About from "./components/about/about";
-import Hero from "./components/hero/hero";
+import Team from "./components/team/team.jsx";
+import Cta from "./components/cta/cta.jsx";
+import Footer from "./components/footer/footer.jsx";
+import Review from "./components/review/review.jsx";
+import Cards from "./components/cards/cards.jsx";
+import Info from "./components/info/info.jsx";
+import Carousel from "./components/carousel/carousel.jsx";
+import About from "./components/about/about.jsx";
+import Hero from "./components/hero/hero.jsx";
 
 function App() {
   return (
     <div className="App">
       <Hero />
       <About />
-      {/* <Carousel /> */}
-      {/* <Info /> */}
-      {/* <Cards /> */}
+      <Carousel />
+      <Info />
+      <Cards />
       <Team />
-      {/* <Review /> */}
+      <Review />
       <Cta />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

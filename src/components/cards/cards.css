@@ -11,7 +11,11 @@
 .card-section-link {
   text-align: right;
 }
-
+@media only screen and (min-width: 600px) and (max-width: 1050px) {
+  .card-col {
+    margin: 15px 0;
+  }
+}
 @media only screen and (max-width: 600px) {
   .card-section {
     padding: 50px;

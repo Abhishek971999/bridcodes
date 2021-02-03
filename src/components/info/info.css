@@ -15,7 +15,7 @@
   margin-bottom: 30px;
 }
 .info-div .info-para {
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 20px;
   font-size: 14px;
 }
@@ -27,5 +27,10 @@
   margin-right: 10px;
 }
 .info-card-title {
-  font-weight: 600;
+  font-weight: 700;
+}
+@media only screen and (max-width: 600px) {
+  .info-section {
+    padding: 20px;
+  }
 }

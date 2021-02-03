@@ -44,27 +44,27 @@
 
 .carousel__back-button {
   position: absolute;
-  bottom: 12%;
+  bottom: 8%;
   border: none;
   background: #ece8e838;
   color: #000;
-  left: 35%;
+  left: 45%;
   transition: all 0.3s;
 }
 
 .carousel__next-button {
   position: absolute;
-  bottom: 12%;
+  bottom: 8%;
   border: none;
   background: #ece8e838;
   color: #000;
-  left: 40%;
+  left: 50%;
   transition: all 0.3s;
 }
 .carousel__back-button:hover,
 .carousel__next-button:hover {
   background: #0e6fff;
-  color: #fff;
+  color: #fff !important;
 }
 @media only screen and (min-width: 600px) and (max-width: 1050px) {
   .hero-text-box {
@@ -77,6 +77,10 @@
   }
   .hero-author-review {
     margin-top: 20px;
+  }
+  .carousel__back-button,
+  .carousel__next-button {
+    bottom: -5%;
   }
 }
 @media only screen and (max-width: 600px) {

@@ -28,6 +28,11 @@
   font-weight: 700;
   color: #000;
 }
+@media only screen and (min-width: 600px) and (max-width: 1050px) {
+  .team-subheading-text {
+    padding: 0 100px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .team-section {
     padding: 0;

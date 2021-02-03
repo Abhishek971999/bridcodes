@@ -21,7 +21,7 @@ function Cards() {
       <div className="row">
         {cards &&
           cards.map((card, key) => (
-            <div className="col-sm-12 col-lg-4">
+            <div className="col-sm-12 col-lg-4 card-col">
               <Card
                 title={card?.title}
                 desc={card?.desc}

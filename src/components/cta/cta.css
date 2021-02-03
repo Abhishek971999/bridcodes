@@ -6,7 +6,11 @@
   padding: 50px 60px;
   border-radius: 12px;
 }
-
+@media only screen and (min-width: 600px) and (max-width: 1050px) {
+  .cta-container {
+    padding: 50px 90px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .cta-container {
     padding: 0;
