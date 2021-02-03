@@ -32,6 +32,9 @@
   .team-section {
     padding: 0;
   }
+  .team-row {
+    margin: 0 !important;
+  }
   .team-subheading-text {
     padding: 0 10px;
   }

@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <About />
-      <Carousel />
+      {/* <Carousel /> */}
       {/* <Info /> */}
       {/* <Cards /> */}
       <Team />
